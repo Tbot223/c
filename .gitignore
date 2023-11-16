@@ -1,2 +1,5 @@
 
 *.json
+.DS_Store
+test
+test.dSYM/Contents/Info.plist
