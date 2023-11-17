@@ -12,6 +12,7 @@ int main()
     list<string>::iterator it = questions.begin();
     list<int>::iterator it2 = answer.begin();
     int n = questions.size();
+    cout << "정답을 입력하세요...\n\n";
     for (int i = 0; i < n; i++) 
     {
         string val = *it;
@@ -30,17 +31,17 @@ int main()
         it++;
         it2++;
     }
-    for (int i = 0; i < answers.size();)
+    list<bool>::iterator it3 = answers.begin();
+    for (int i = 0; i < 3; i++)
     {
-        list<bool>::iterator it = answers.begin();
-        bool val = *it;
+        bool val = *it3;
         if (val == true)
         {
-            cout << i << "번째 문제는 정답입니다.";
+            cout << i+1 << "번째 문제는 정답입니다.\n";
         }else
         {
-            cout << i << "번째 문제는 오답입니다.";
+            cout << i+1 << "번째 문제는 오답입니다.\n";
         }
-        it++;
+        it3++;
     }
 }
