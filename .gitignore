@@ -5,3 +5,5 @@
 *.plist
 *.yml
 001/test.dSYM/Contents/Resources/DWARF/test
+002/test.dSYM/Contents/Resources/DWARF/test
+002/test
