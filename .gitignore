@@ -1,5 +1,7 @@
 
-*.json
 .DS_Store
-test
-test.dSYM/Contents/Info.plist
+*.json
+001/test
+*.plist
+*.yml
+001/test.dSYM/Contents/Resources/DWARF/test
